@@ -9,7 +9,7 @@ namespace FormsReproduccion_G3_2022_I
     {
 
         List<Musica> canciones;
-
+        private int contador;
         public Form1()
         {
             InitializeComponent();
@@ -42,6 +42,37 @@ namespace FormsReproduccion_G3_2022_I
         private void ordenarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             canciones.Sort();
+        }
+
+        private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAgregar formAgregar = new FormAgregar();
+            formAgregar.EnviarMusica += AgregarCanciones;
+            formAgregar.ShowDialog();
+
+        }
+
+        public void AgregarCanciones(Musica musica )
+        {
+            canciones.Add(musica);
+            lstCanciones.Items.Add(musica.Cancion);
+
+        }
+
+        private void timerCancion_Tick(object sender, EventArgs e)
+        {
+            lbTiempoTrans.Text = contador.ToString();
+            contador++;
+        }
+
+        private void playToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timerCancion.Start();
+        }
+
+        private void pausarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timerCancion.Stop();
         }
     }
 }
