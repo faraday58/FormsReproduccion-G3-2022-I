@@ -133,7 +133,7 @@ namespace FormsReproduccion_G3_2022_I
             this.reproducciónToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1938, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1938, 40);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -144,7 +144,7 @@ namespace FormsReproduccion_G3_2022_I
             this.agregarToolStripMenuItem,
             this.ordenarToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(114, 38);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(114, 36);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
             // cargarToolStripMenuItem
@@ -180,56 +180,56 @@ namespace FormsReproduccion_G3_2022_I
             this.aleatoriaToolStripMenuItem,
             this.bucleToolStripMenuItem});
             this.reproducciónToolStripMenuItem.Name = "reproducciónToolStripMenuItem";
-            this.reproducciónToolStripMenuItem.Size = new System.Drawing.Size(180, 38);
+            this.reproducciónToolStripMenuItem.Size = new System.Drawing.Size(180, 36);
             this.reproducciónToolStripMenuItem.Text = "Reproducción";
             // 
             // playToolStripMenuItem
             // 
             this.playToolStripMenuItem.Name = "playToolStripMenuItem";
-            this.playToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.playToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.playToolStripMenuItem.Text = "Play";
             this.playToolStripMenuItem.Click += new System.EventHandler(this.playToolStripMenuItem_Click);
             // 
             // pausarToolStripMenuItem
             // 
             this.pausarToolStripMenuItem.Name = "pausarToolStripMenuItem";
-            this.pausarToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.pausarToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.pausarToolStripMenuItem.Text = "Pausar";
             this.pausarToolStripMenuItem.Click += new System.EventHandler(this.pausarToolStripMenuItem_Click);
             // 
             // siguienteToolStripMenuItem
             // 
             this.siguienteToolStripMenuItem.Name = "siguienteToolStripMenuItem";
-            this.siguienteToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.siguienteToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.siguienteToolStripMenuItem.Text = "Siguiente";
             // 
             // anteriorToolStripMenuItem
             // 
             this.anteriorToolStripMenuItem.Name = "anteriorToolStripMenuItem";
-            this.anteriorToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.anteriorToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.anteriorToolStripMenuItem.Text = "Anterior";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(356, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(265, 6);
             // 
             // automáticaToolStripMenuItem
             // 
             this.automáticaToolStripMenuItem.Name = "automáticaToolStripMenuItem";
-            this.automáticaToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.automáticaToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.automáticaToolStripMenuItem.Text = "Automática";
             // 
             // aleatoriaToolStripMenuItem
             // 
             this.aleatoriaToolStripMenuItem.Name = "aleatoriaToolStripMenuItem";
-            this.aleatoriaToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.aleatoriaToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.aleatoriaToolStripMenuItem.Text = "Aleatoria";
             // 
             // bucleToolStripMenuItem
             // 
             this.bucleToolStripMenuItem.Name = "bucleToolStripMenuItem";
-            this.bucleToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.bucleToolStripMenuItem.Size = new System.Drawing.Size(268, 44);
             this.bucleToolStripMenuItem.Text = "Bucle";
             // 
             // label2
@@ -244,7 +244,7 @@ namespace FormsReproduccion_G3_2022_I
             // ptbAlbumArtista
             // 
             this.ptbAlbumArtista.Image = global::FormsReproduccion_G3_2022_I.Properties.Resources.imagineDragons;
-            this.ptbAlbumArtista.Location = new System.Drawing.Point(1391, 203);
+            this.ptbAlbumArtista.Location = new System.Drawing.Point(1304, 199);
             this.ptbAlbumArtista.Name = "ptbAlbumArtista";
             this.ptbAlbumArtista.Size = new System.Drawing.Size(497, 342);
             this.ptbAlbumArtista.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
